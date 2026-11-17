@@ -10,9 +10,7 @@ printf("Enter rows of second matrix: ");
 scanf("%d",&r2);
 printf("Enter columns of second matrix: ");
 scanf("%d",&c2);
-if(c1!=r2)
-{
-printf("Matrix multiplication is not possible");
+if(c1!=r2)("Matrix multiplication is not possible");
 return 0;
 }
 printf("Enter elements of first matrix: \n");
@@ -37,11 +35,4 @@ c[i][j]=c[i][j]+a[i][k]*b[k][j];
 }
 }
 printf("Product of matrices: \n");
-for(i=0;i<r1;i++)
-{
-for(j=0;j<c2;j++)
-printf("%d ",c[i][j]);
-printf("\n");
-}
-return 0;
-}
+for(i=0;i<r1;i
